@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A71ADE811C291AD80075AB73 /* SYGifFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = A71ADE801C291AD80075AB73 /* SYGifFrame.m */; };
+		A71ADE841C291AF10075AB73 /* SYGifImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A71ADE831C291AF10075AB73 /* SYGifImageView.m */; };
 		A7DBC18B1B6F10C500E3F667 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7DBC18A1B6F10C500E3F667 /* main.m */; };
 		A7DBC18E1B6F10C500E3F667 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7DBC18D1B6F10C500E3F667 /* AppDelegate.m */; };
 		A7DBC1911B6F10C500E3F667 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7DBC1901B6F10C500E3F667 /* ViewController.m */; };
@@ -14,7 +16,6 @@
 		A7DBC1961B6F10C500E3F667 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7DBC1951B6F10C500E3F667 /* Images.xcassets */; };
 		A7DBC1991B6F10C500E3F667 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7DBC1971B6F10C500E3F667 /* LaunchScreen.xib */; };
 		A7DBC1A51B6F10C500E3F667 /* DemoGifImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7DBC1A41B6F10C500E3F667 /* DemoGifImageTests.m */; };
-		A7DBC1B11B6F114400E3F667 /* SCGIFImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7DBC1B01B6F114400E3F667 /* SCGIFImageView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		A7DBC1B41B6F115100E3F667 /* fail.gif in Resources */ = {isa = PBXBuildFile; fileRef = A7DBC1B21B6F115100E3F667 /* fail.gif */; };
 		A7DBC1B51B6F115100E3F667 /* success.gif in Resources */ = {isa = PBXBuildFile; fileRef = A7DBC1B31B6F115100E3F667 /* success.gif */; };
 		A7DBC1B81B6F116F00E3F667 /* GifImageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A7DBC1B71B6F116F00E3F667 /* GifImageVC.m */; };
@@ -31,6 +32,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A71ADE7F1C291AD80075AB73 /* SYGifFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYGifFrame.h; sourceTree = "<group>"; };
+		A71ADE801C291AD80075AB73 /* SYGifFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYGifFrame.m; sourceTree = "<group>"; };
+		A71ADE821C291AF10075AB73 /* SYGifImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYGifImageView.h; sourceTree = "<group>"; };
+		A71ADE831C291AF10075AB73 /* SYGifImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYGifImageView.m; sourceTree = "<group>"; };
 		A7DBC1851B6F10C500E3F667 /* DemoGifImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoGifImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7DBC1891B6F10C500E3F667 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7DBC18A1B6F10C500E3F667 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -44,8 +49,6 @@
 		A7DBC19E1B6F10C500E3F667 /* DemoGifImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoGifImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7DBC1A31B6F10C500E3F667 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7DBC1A41B6F10C500E3F667 /* DemoGifImageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoGifImageTests.m; sourceTree = "<group>"; };
-		A7DBC1AF1B6F114400E3F667 /* SCGIFImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCGIFImageView.h; sourceTree = "<group>"; };
-		A7DBC1B01B6F114400E3F667 /* SCGIFImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCGIFImageView.m; sourceTree = "<group>"; };
 		A7DBC1B21B6F115100E3F667 /* fail.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = fail.gif; sourceTree = "<group>"; };
 		A7DBC1B31B6F115100E3F667 /* success.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = success.gif; sourceTree = "<group>"; };
 		A7DBC1B61B6F116F00E3F667 /* GifImageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GifImageVC.h; sourceTree = "<group>"; };
@@ -70,6 +73,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A71ADE7E1C291A3C0075AB73 /* SYGifImageView */ = {
+			isa = PBXGroup;
+			children = (
+				A71ADE7F1C291AD80075AB73 /* SYGifFrame.h */,
+				A71ADE801C291AD80075AB73 /* SYGifFrame.m */,
+				A71ADE821C291AF10075AB73 /* SYGifImageView.h */,
+				A71ADE831C291AF10075AB73 /* SYGifImageView.m */,
+			);
+			path = SYGifImageView;
+			sourceTree = "<group>";
+		};
 		A7DBC17C1B6F10C500E3F667 = {
 			isa = PBXGroup;
 			children = (
@@ -99,7 +113,7 @@
 				A7DBC1B71B6F116F00E3F667 /* GifImageVC.m */,
 				A7DBC1B21B6F115100E3F667 /* fail.gif */,
 				A7DBC1B31B6F115100E3F667 /* success.gif */,
-				A7DBC1AE1B6F114400E3F667 /* GifImageHelper */,
+				A71ADE7E1C291A3C0075AB73 /* SYGifImageView */,
 				A7DBC1921B6F10C500E3F667 /* Main.storyboard */,
 				A7DBC1951B6F10C500E3F667 /* Images.xcassets */,
 				A7DBC1971B6F10C500E3F667 /* LaunchScreen.xib */,
@@ -132,15 +146,6 @@
 				A7DBC1A31B6F10C500E3F667 /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		A7DBC1AE1B6F114400E3F667 /* GifImageHelper */ = {
-			isa = PBXGroup;
-			children = (
-				A7DBC1AF1B6F114400E3F667 /* SCGIFImageView.h */,
-				A7DBC1B01B6F114400E3F667 /* SCGIFImageView.m */,
-			);
-			path = GifImageHelper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,8 +250,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A71ADE811C291AD80075AB73 /* SYGifFrame.m in Sources */,
 				A7DBC1911B6F10C500E3F667 /* ViewController.m in Sources */,
-				A7DBC1B11B6F114400E3F667 /* SCGIFImageView.m in Sources */,
+				A71ADE841C291AF10075AB73 /* SYGifImageView.m in Sources */,
 				A7DBC1B81B6F116F00E3F667 /* GifImageVC.m in Sources */,
 				A7DBC18E1B6F10C500E3F667 /* AppDelegate.m in Sources */,
 				A7DBC18B1B6F10C500E3F667 /* main.m in Sources */,
@@ -446,6 +452,7 @@
 				A7DBC1AA1B6F10C500E3F667 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A7DBC1AB1B6F10C500E3F667 /* Build configuration list for PBXNativeTarget "DemoGifImageTests" */ = {
 			isa = XCConfigurationList;
@@ -454,6 +461,7 @@
 				A7DBC1AD1B6F10C500E3F667 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
