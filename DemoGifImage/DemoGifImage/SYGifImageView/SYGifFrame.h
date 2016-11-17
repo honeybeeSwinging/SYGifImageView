@@ -1,6 +1,6 @@
 //
 //  SYGifFrame.h
-//  DemoGifImage
+//  zhangshaoyu
 //
 //  Created by zhangshaoyu on 15/12/22.
 //  Copyright © 2015年 zhangshaoyu. All rights reserved.

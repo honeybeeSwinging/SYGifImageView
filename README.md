@@ -1,21 +1,25 @@
-# GifImage
+# SYGifImageView
 gif动态图片
 
 ##使用示例
 
 ~~~ javascript
+
+// 导入头文件
+#import "SYGifImageView.h"
+
 // 1
-NSString *successfilePath = [[NSBundle mainBundle] pathForResource:@"success.gif" ofType:nil];
-SCGIFImageView *successgifImageView = [[SCGIFImageView alloc] initWithGIFFile:successfilePath];
-successgifImageView.frame = CGRectMake(10.0, 10.0, successgifImageView.image.size.width, successgifImageView.image.size.height);
-[self.view addSubview:successgifImageView];
-    
-UIView *currentView = successgifImageView;
+NSString *imageFile = [[NSBundle mainBundle] pathForResource:@"fail" ofType:@"gif"];
+NSData *imageData = [NSData dataWithContentsOfFile:imageFile];
+SYGifImageView *gifImageView00 = [[SYGifImageView alloc] initWithGIFData:imageData];
+gifImageView00.frame = CGRectMake(10.0, 10.0, 100.0, 100.0);
+[self.view addSubview:gifImageView00];
     
 // 2
-NSString *failfilePath = [[NSBundle mainBundle] pathForResource:@"fail.gif" ofType:nil];
-SCGIFImageView *failgifImageView = [[SCGIFImageView alloc] initWithGIFFile:failfilePath];
-failgifImageView.frame = CGRectMake(currentView.frame.origin.x, currentView.frame.origin.y + currentView.frame.size.height + 10.0, 200.0, 200.0);
-failgifImageView.contentMode = UIViewContentModeScaleAspectFit;
-[self.view addSubview:failgifImageView];
+SYGifImageView *gifImageView = [[SYGifImageView alloc] initWithFrame:CGRectMake(10.0, 150.0, 100.0, 100.0)];
+gifImageView.gifImageName = @"success.gif";
+[self.view addSubview:gifImageView];
+
 ~~~
+
+![gifImage.gif](./gifImage.gif)
