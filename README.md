@@ -1,7 +1,7 @@
 # SYGifImageView
 gif动态图片
 
-##使用示例
+## 使用示例
 
 ~~~ javascript
 
